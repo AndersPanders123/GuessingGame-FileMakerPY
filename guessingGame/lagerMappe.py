@@ -3,7 +3,7 @@ import time as t
 
 
 # Specify the parent directory where you want to create the new folder
-parent_directory = r"C:\Users\anders.hoelstad\Documents\code"
+parent_directory = r"C:\Users\anders.hoelstad\Documents\GitHub\GuessingGame-FileMakerPY"
 
 # Specify the name of the new folder you want to create
 new_folder_name = "mappeMedVeldigViktigeFiler;)"
