@@ -12,7 +12,7 @@ clear()
 array = [
     "Det er",                           # 0
     "Drumroll ??",                      # 1 
-    "🥁🥁🥁🥁🥁🥁",                  # 2 
+    "🥁",                               # 2 
     "Riktig🥳",                         # 3
     "Feil😡",                           # 4
     "Det riktige nummeret var",         # 5
@@ -38,9 +38,14 @@ if userGuessNumber == randomNumber:
     t.sleep(1)
     print(array[1])
     t.sleep(2)
-    print(array[2])    
-    t.sleep(2)
-    clear()
+    print(array[2])
+    t.sleep(0.2)
+    print(array[2])
+    t.sleep(0.2)
+    print(array[2])
+    t.sleep(0.2)
+    print(array[2])
+    t.sleep(0.2)            
     print(array[3])
     t.sleep(1)
     print(array[10])
@@ -51,6 +56,7 @@ if userGuessNumber == randomNumber:
     t.sleep(2.5)
     clear()
     from lagerMappe import makeFile
+    t.sleep(3)
     print(array[7])
     t.sleep(1.5)
     if os.path.exists(directory):
@@ -65,7 +71,13 @@ else:
     print(array[1])
     t.sleep(2)
     print(array[2])
-    t.sleep(2)
+    t.sleep(0.2)
+    print(array[2])
+    t.sleep(0.2)
+    print(array[2])
+    t.sleep(0.2)
+    print(array[2])
+    t.sleep(0.2)            
     print(array[4])
     t.sleep(1)
     print(f"{array[5]} {randomNumber} {array[6]}")
