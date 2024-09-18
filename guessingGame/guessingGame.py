@@ -2,6 +2,7 @@ import random
 import os
 import shutil
 import time as t
+from lagerMappe import makeFile
 
 def clear():
     if os.name == "nt":
@@ -20,7 +21,7 @@ array = [
     "Si hade til filene dine 😎 !!!",   # 7
     "er borte vekk",                    # 8
     "heheheha😁",                       # 9
-    "Hmmmmmmmmmmmmmm🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔", # 10
+    "Hmmmmmmmmmmmmmm🤔🤔🤔🤔🤔🤔🤔", # 10
     "☝️",                               # 11
     "jeg har en mester plan🤓🤓"       # 12
 ]
@@ -37,15 +38,10 @@ if userGuessNumber == randomNumber:
     print(array[0])
     t.sleep(1)
     print(array[1])
-    t.sleep(2)
-    print(array[2])
-    t.sleep(0.2)
-    print(array[2])
-    t.sleep(0.2)
-    print(array[2])
-    t.sleep(0.2)
-    print(array[2])
-    t.sleep(0.2)            
+    t.sleep(1)
+    for i in range(4):
+        print(array[2])
+        t.sleep(0.2)          
     print(array[3])
     t.sleep(1)
     print(array[10])
@@ -55,7 +51,7 @@ if userGuessNumber == randomNumber:
     print(array[12])
     t.sleep(2.5)
     clear()
-    from lagerMappe import makeFile
+    makeFile()
     t.sleep(3)
     print(array[7])
     t.sleep(1.5)
@@ -69,15 +65,10 @@ else:
     print(array[0])
     t.sleep(1)
     print(array[1])
-    t.sleep(2)
-    print(array[2])
-    t.sleep(0.2)
-    print(array[2])
-    t.sleep(0.2)
-    print(array[2])
-    t.sleep(0.2)
-    print(array[2])
-    t.sleep(0.2)            
+    t.sleep(1)
+    for i in range(4):
+        print(array[2])
+        t.sleep(0.2)          
     print(array[4])
     t.sleep(1)
     print(f"{array[5]} {randomNumber} {array[6]}")

@@ -29,4 +29,3 @@ def makeFile():
         print(f"{new_file_name} er allerede å plass")
         
     print("alt på plass sjef")
-makeFile()
